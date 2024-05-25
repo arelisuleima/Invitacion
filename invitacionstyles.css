@@ -10,11 +10,11 @@
 }
 
 .columna {
-    width: 25%; 
+    width: 25%; /*Tamaño de recuadro*/
     padding: 20px;
-    border-radius: 5%;
-background-image: url(imagenes/ondas-ama.png);
-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 5%;/*Bordes redondeados*/
+background-image: url(imagenes/ondas-ama.png);/*Imagen de fondo*/
+box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);/*Sombras en recuadros*/
 }
 .segundaColumna{
     width: 25%; 
@@ -58,7 +58,7 @@ h1 {
 
 }
 
-/*Formulario*/
+/*Formulario de correo*/
 .form-control{
     background-color: #F3A29E;
     font-family: "Manrope", sans-serif;
