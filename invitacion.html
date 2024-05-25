@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación 💜</title>
+    <link rel="stylesheet" href="invitacionstyles.css">
+</head>
+<body>
+    <img src="imagenes/mujeres-dos.png" alt="Programadora" style="max-width: 30%;">
+    <div class="contenedor">
+        <div class="columna">
+            <!-- Contenido para la primera columna -->
+            <h2>Te invitamos a:</h2>
+            <h1>Women coding </h1>
+            <img src="imagenes/mujeres-dos.png" alt="Programadora" style="max-width: 80%;">
+
+            <p>Únete a nuestra comunidad de mujeres apasionadas por la programación.</p>
+        </div>
+        <div class = "segundaColumna">
+            <img src ="imagenes/compu-mano.png" alt="Programadora" style="max-width: 100%;">
+            <p>En Women Coding, organizamos cursos, charlas, hackathones y más. Si eres principiante o experta, ¡todas son bienvenidas! Únete para aprender, colaborar y crecer juntas.</p>
+        </div>
+        <div class = "tercerColumna">
+            <p>¿Lista para formar parte de Woman Coding? ¡Confirma tu asistencia y prepárate para sumergirte en el mundo del código!</p>
+            <h2>Únete</h2>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Correo electrónico:</label><br>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu email"><br>
+                  <label for="exampleInputPassword1">Crear contraseña:</label><br>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick="mostrarContrasena()">
+                  <label class="form-check-label" for="exampleCheck1">Ver contraseña 👀</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form><br>
+              
+              <script>
+              function mostrarContrasena() {
+                var tipo = document.getElementById("exampleInputPassword1");
+                if (tipo.type == "password") {
+                  tipo.type = "text";
+                } else {
+                  tipo.type = "password";
+                }
+              }
+              </script>
+              
+              <small>Women Coding®. Todos los derechos reservados.</small>
+            </div>
+    </div>
+   
+</body>
+</html>
+
